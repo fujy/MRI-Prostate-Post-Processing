@@ -1,6 +1,6 @@
 # MRI-Prostate-Post-Processing
 
-A MATLAB Applicaiton used to process MRI Prostate Images with the following features
+A MATLAB applicaiton used to process MRI Prostate Images with the following features
 
 - Load DICOM and JPEG images
 - Save to DICOM and JPEG images
