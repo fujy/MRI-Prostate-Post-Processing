@@ -9,9 +9,12 @@ A MATLAB applicaiton used to process MRI Prostate Images with the following feat
 - Calculating prostate zones area and volume
 - Show a 3D representation of marked zones
 
+## Dependencies
+
+- MATLAB R2013a
+- MATLAB Image Processing Toolbox
+
 
 ## License
 
-Licensed under the MIT License
-
-     http://opensource.org/licenses/MIT
+Licensed under the [MIT license](http://www.opensource.org/licenses/MIT).
