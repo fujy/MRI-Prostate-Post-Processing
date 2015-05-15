@@ -248,10 +248,10 @@ function mriprostate()
             clearCZ();
             clearTumour();
             data = load(filepath);
-            TZ = [TZ; data.slices.TZ];
-            PZ = [PZ; data.slices.PZ];
-            CZ = [CZ; data.slices.CZ];
-            Tumour = [Tumour; data.slices.Tumour];
+            TZ = [TZ; data.slice.TZ];
+            PZ = [PZ; data.slice.PZ];
+            CZ = [CZ; data.slice.CZ];
+            Tumour = [Tumour; data.slice.Tumour];
             % Now Display Marks for current slice
             selected_image_index = getSelectedImageIndex();
             displayImageMarks(selected_image_index);
@@ -672,7 +672,7 @@ orgParameterBG = uibuttongroup('Units','Normalized','Title','Information',...
     'Position',[1/wMax 24/hMax wOrgBG/wMax hOrgBG/hMax]);
 
 familyNameLabel = uicontrol('Style','text','Parent',orgParameterBG,'Units','normalized',...
-    'String','Fimaly Name',...
+    'String','Family Name',...
     'Position',[1/wOrgBG 31/hOrgBG 7/wOrgBG 3/hOrgBG]);
 
 familyNameEdit = uicontrol('Style','edit','Parent',orgParameterBG,'Units','normalized',...
